@@ -4,8 +4,8 @@ after_success:
 deploy:
   provider: heroku
   app:
-    deploy: "citest-st49667"
+    master: "citest-st49667"
   api_key:
     secure: "I4Ek/Tc7OOa4QJmN4WoBhnT+PC+NtBrukBSO4XyHndnkLsxqmxrYLPNv1GVxS7usGD0iUFRIKQucc8qRm7FCFmvk/zyWdk79IWdSkHykQ0dOPAPUOvW1m7cIy2BkNi6yf2VI8VBJ5vnE6smLizd+RYTGZpB+jHMQJVC4K+/vu6R1kbtE04QdqJGkik1zxxU7EMqF9vVv2QHBKAqdOA2Z2TpP6esdPKd1mcBvnjtNeAblM9k25dUR3pqtGbYg6rJIw77KOGjVPgJNyZ5LVCJzlQ9xW5ULaz5Of36IclfMw2eXJDO/exgWYQToL5npzTnp/RWu921iHtqy9xix4iSeyHOcpCOF0R2JvcgHF0gZwqz4q+7zc2e6P+KDagXIMRGpIB0aOKVNbmXIAsGL0KzzeWDQmY74+zk2vmrk6iabEypztmjMmX11/853ggF4dUQu3yKtmsoUBJP899td0UVQXsTGqQmJtOGo9t/0Vpmfoiuq92lXygks6NuDvaN7OccPGOfgOlvvFLpb9AtVlVGa22JmCBMcJ072hHhe3vFJxZRuLqRKip03hYaROb7ZJ2eadWdfMYBnbLLiVaFJbU15aBG4kTZxS7HXgkE/LPtSTOWUaHpCPy2uUh0M6FtSAxgHVoOTG9p/aLDG281evKdQpQprA/HSIU0hTpiW2WZ3yHU="
-  on:
-    branch: master
+# on:
+#   branch: master
